@@ -2,6 +2,8 @@ package com.hgwxr.algorithm;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class LruLinkedHashMapTest {
@@ -22,6 +24,7 @@ public class LruLinkedHashMapTest {
             map.put(param);
             System.out.println(map.toString());
         }
+        ArrayList<String> list = new ArrayList<>();
     }
 
 }
